@@ -1,8 +1,8 @@
 {
   "profile": {
-    "image": "https://freeimage.host/i/JMuUvne",
+    "image": "https://i.ibb.co/vh0kpKb/img.jpg",
     "name": "Palak Mittal",
-    "work_experience": "Associate Consultant - 01/2024 to Present\nCapgemini India Pvt Ltd\n\n• Contributed to the full mobile application development lifecycle from planning, requirement gathering, development, testing and launching on Google play store.\n• Responsible for development of all application components and UI resources.\n\n\nSenior Analyst - 10/2022 to 12/2023\nCapgemini India Pvt Ltd\n\n• Worked for PLDT client for developing their native Android Application.\n• Designed the UI and developed the features using Kotlin, MVVM, and Jetpack Components.\n• Worked on API Integration by parsing JSON data over RESTful Web API's.\n\n\nAnalyst - 02/2021 to 09/2023\nCapgemini India Pvt Ltd\n\n• Designed the UI for the application.\n• Worked on bug fixes.\n• Worked on sonarqube issues.",
-    "education": "B.Tech (CSE) - 07/2016 to 05/2020\n\nManav Rachna International Institute of Research and Studies"
+    "work_experience": "<b>Associate Consultant - 01/2024 to Present<br>Capgemini India Pvt Ltd</b><br><br>• Contributed to the full mobile application development lifecycle from planning, requirement gathering, development, testing and launching on Google play store.<br>• Responsible for development of all application components and UI resources.<br><br><br><b>Senior Analyst - 10/2022 to 12/2023<br>Capgemini India Pvt Ltd</b><br><br>• Worked for PLDT client for developing their native Android Application.<br>• Designed the UI and developed the features using Kotlin, MVVM, and Jetpack Components.<br>• Worked on API Integration by parsing JSON data over RESTful Web API's.<br><br><br><b>Analyst - 02/2021 to 09/2023<br>Capgemini India Pvt Ltd</b><br><br>• Designed the UI for the application.<br>• Worked on bug fixes.<br>• Worked on sonarqube issues.",
+    "education": "<b>B.Tech (CSE) - 07/2016 to 05/2020</b><br><br>Manav Rachna International Institute of Research and Studies"
     }
 }

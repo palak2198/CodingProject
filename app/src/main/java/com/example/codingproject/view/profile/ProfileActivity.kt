@@ -11,7 +11,9 @@ import androidx.navigation.ui.setupWithNavController
 import com.example.codingproject.R
 import com.example.codingproject.databinding.ActivityProfileBinding
 import com.example.codingproject.view.base.BaseActivity
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class ProfileActivity : BaseActivity<ActivityProfileBinding>() {
 
     override val bindingInflater: (LayoutInflater) -> ActivityProfileBinding
@@ -28,6 +30,7 @@ class ProfileActivity : BaseActivity<ActivityProfileBinding>() {
         binding.navigationView.setupWithNavController(navController)
         appBarConfiguration = AppBarConfiguration(navController.graph, binding.drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
+
     }
 
     override fun onSupportNavigateUp(): Boolean {

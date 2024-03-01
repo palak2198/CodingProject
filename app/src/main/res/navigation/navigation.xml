@@ -17,6 +17,25 @@
         android:name="com.example.codingproject.view.cat.CatFragment"
         android:label="Cat List"
         tools:layout="@layout/fragment_cat" >
+        <action
+            android:id="@+id/action_catFragment_to_catDetailsFragment"
+            app:destination="@id/catDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/catDetailsFragment"
+        android:name="com.example.codingproject.view.cat.CatDetailsFragment"
+        android:label="Cat Details"
+        tools:layout="@layout/fragment_cat_details" >
+        <argument
+            android:name="extra_cat_details"
+            app:argType="com.example.codingproject.data.model.CatsResponseItem"
+            app:nullable="true"
+            android:defaultValue="@null" />
     </fragment>
 
     <action
@@ -28,4 +47,5 @@
         app:popExitAnim="@anim/slide_out_right"
         app:popUpTo="@id/profileFragment"
         app:popUpToInclusive="false" />
+
 </navigation>

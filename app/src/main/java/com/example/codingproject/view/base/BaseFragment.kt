@@ -24,29 +24,6 @@ abstract class BaseFragment<VB : ViewBinding> : Fragment() {
 
     var mActivity: BaseActivity<*>? = null
 
-    fun setUpToolbar(
-        title: String,
-        toolbar: Toolbar,
-        tvToolbar: AppCompatTextView,
-        showBackButton: Boolean,
-        onBackPressedAction: (() -> Unit)? = null
-    ) {
-        mActivity?.setSupportActionBar(toolbar)
-        mActivity?.title = ""
-        if (showBackButton) {
-            mActivity?.supportActionBar?.setDisplayHomeAsUpEnabled(true)
-            toolbar.setNavigationIcon(R.drawable.ic_back)
-        }
-        tvToolbar.text = title
-        toolbar.setNavigationOnClickListener {
-            if (onBackPressedAction != null) {
-                onBackPressedAction.invoke()
-            } else {
-                navController.popBackStack()
-            }
-        }
-    }
-
     override fun onAttach(context: Context) {
         super.onAttach(context)
         if (context is BaseActivity<*>) {
